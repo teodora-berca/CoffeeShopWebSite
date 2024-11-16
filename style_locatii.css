@@ -1,0 +1,157 @@
+/*fonturi*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&family=Noto+Serif&display=swap');
+/*body*/
+body
+{
+    background-color:white;
+    font-family: 'Fira Sans', sans-serif;
+}
+/*header*/
+header
+{
+    position:sticky;
+    top:0;
+    background-color:white;
+    margin-left:0em;
+    margin-right:0em;
+}
+#Titlu_pagina
+{
+    text-align:center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color:black;
+    font-size:5vw;
+}
+.meniu
+{
+    font-family: 'Fira Sans', sans-serif;
+    background-color:white;
+    border-bottom: 0.1em solid black;
+    color:black;
+    font-size:2vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:5em;
+}
+.meniu a
+{
+    color:rgb(106, 58, 106);
+    text-decoration:none;
+}
+.meniu a.pagina_curenta
+{
+    background-color:rgb(106, 58, 106);
+    color:white;
+    padding-left:1em;
+    padding-right:1em;
+}
+.meniu a:hover
+{
+    background-color:rgb(106, 58, 106);
+    color:white;
+}
+.dropdown-menu
+{
+    position:relative;
+    display:inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: rgb(147, 104, 137);
+    padding-left:1em;
+    padding-right:1em;
+    z-index: 1;
+    text-align:center;
+}
+
+.dropdown-content a:hover 
+{
+  background-color:rgb(106, 58, 106);
+  color:white;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-menu:hover .dropdown-content 
+  {
+    display: block;
+  }
+
+  .dropdown-menu:hover .dropdown 
+  {
+    background-color: white;
+    color:black;
+  }
+/*main*/
+#Titlu_secundar
+{
+    margin-left:1em;
+    text-align:left;
+    font-family: 'Fira Sans', sans-serif;
+    color:black;
+    font-size:3vw;
+}
+
+.sectiune
+{
+    margin-left:3em;
+    margin-right:6em;
+    margin-top:1em;
+    margin-bottom:1em;
+    padding-left:2em;
+    border: 0.1em solid black;
+    background-color:rgb(160, 144, 155);
+    color:white;
+    display:grid;
+    grid-template-rows:20% 80%;
+    grid-template-columns:40% 60%;
+}
+.sectiune:nth-of-type(even)
+{
+    background-color:white;
+    color:rgb(160, 144, 155);
+    margin-left:6em;
+    margin-right:3em;
+}
+.subtitlu
+{
+    grid-column:1/2;
+    grid-row:1/2;
+    font-size:2vw;
+}
+.text
+{
+    grid-column:2/3;
+    grid-row:2/3;
+    font-size:1vw;
+    padding-left:2em;
+}
+.poza
+{
+    grid-column:1/2;
+    grid-row:2/3;
+    padding-bottom:1em;
+}
+img
+{
+    height:100%;
+    width:100%;
+}
+/*footer*/
+footer
+{
+    background-color:rgb(160, 144, 155);
+    color:black;
+    font-size:0.5vw;
+}
+

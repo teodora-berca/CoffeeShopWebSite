@@ -1,0 +1,130 @@
+/*fonturi*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&family=Noto+Serif&display=swap');
+/*body*/
+body
+{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Fira Sans', sans-serif;
+}
+/*header*/
+header
+{
+    position:sticky;
+    top:0;
+    background-color:white;
+    margin-left:0em;
+    margin-right:0em;
+}
+#Titlu_pagina
+{
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 5vw;
+}
+.meniu
+{
+    font-family: 'Fira Sans', sans-serif;
+    background-color:white;
+    border-bottom: 0.1em solid black;
+    color:black;
+    font-size:2vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:5em;
+}
+.meniu a
+{
+    color:rgb(106, 58, 106);
+    text-decoration:none;
+}
+.meniu a.pagina_curenta
+{
+    background-color:rgb(106, 58, 106);
+    color:white;
+    padding-left:1em;
+    padding-right:1em;
+}
+.meniu a:hover
+{
+    background-color:rgb(106, 58, 106);
+    color:white;
+}
+.dropdown-menu
+{
+    position:relative;
+    display:inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: rgb(147, 104, 137);
+    padding-left:1em;
+    padding-right:1em;
+    z-index: 1;
+    text-align:center;
+}
+
+.dropdown-content a:hover 
+{
+  background-color:rgb(106, 58, 106);
+  color:white;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-menu:hover .dropdown-content 
+  {
+    display: block;
+  }
+
+  .dropdown-menu:hover .dropdown 
+  {
+    background-color: white;
+    color:black;
+  }
+/*main*/
+.titlu
+{
+    background-color:rgb(106, 58, 106);
+    color:white;
+    height:2em;
+    width:10em;
+    transition: width 2s, height 2s, background-image 2s, transform 2s;
+    margin-left:1em;
+    margin-top:1em;
+    text-align:center;
+    font-size:1vw;
+}
+.titlu:hover
+{
+    background-color:rgb(127, 90, 127);
+    height: 2em;
+    width: 10em;
+    transform: rotate(-45deg);
+}
+
+.sectiune
+{
+    border-style:solid;
+    margin:2em;
+    padding-left:1em;
+    font-size:1vw;
+}
+
+/*footer*/
+footer
+{
+    background-color:rgb(160, 144, 155);
+    color:black;
+    font-size:0.5vw;
+}

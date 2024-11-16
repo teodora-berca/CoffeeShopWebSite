@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Produse-Cafea&dulciuri</title>
+        <link rel="stylesheet" href="formular.css">
+        <script type="text/javascript" src="formular.js"></script>
+    </head>
+    <body>
+        <form id="formular" name="formular">
+            
+            <div>
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" name="nume" placeholder="nume" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="prenume">Prenume:</label>
+                <input type="text" id="prenume" name="prenume" placeholder="prenume" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Adresa de email:</label>
+                <input type="email" id="email" name="email" placeholder="email" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="telefon">Telefon:</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="telefon" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="data_nastere">Data nastere:</label>
+                <input type="date" id="data_nastere" name="data_nastere">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="strada">Strada:</label>
+                <input type="text" id="strada" name="strada" placeholder="strada" required>
+                <label for="numar">Numar:</label>
+                <input type="number" id="numar" name="numar" min="1" placeholder="numar" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="sex">Sex:</label>
+                <br>
+                <label for="feminin">Feminin</label>
+                <input type="radio" name="sex">
+                <label for="masculin">Masculin</label>
+                <input type="radio" name="sex">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="metoda_de_plata">Metoda de plata:</label>
+                <select id="metoda_de_plata" name="metoda_de_plata">
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="comanda">Comanda:</label>
+                <br>
+                <label for="americano">Americano</label>
+                <input type="number" name="americano" min="0">
+                <br>
+                <label for="mocha">Mocha</label>
+                <input type="number" name="mocha" min="0">
+                <br>
+                <label for="iced_coffee">Iced Coffee</label>
+                <input type="number" name="iced_coffee" min="0">
+                <br>
+                <label for="espresso">Espresso</label>
+                <input type="number" name="espresso" min="0">
+                <br>
+                <label for="latte_macchiato">Latte macchiato</label>
+                <input type="number" name="latte_macchiato" min="0">
+                <br>
+                <label for="cappuccino">Cappuccino</label>
+                <input type="number" name="cappuccino" min="0">
+                <br>
+                <label for="irish_coffee">Irish coffee</label>
+                <input type="number" name="irish_coffee" min="0">
+                <br>
+                <label for="alba_ca_zapada">Alba ca zapada</label>
+                <input type="number" name="alba_ca_zapada" min="0">
+                <br>
+                <label for="prajitura_visine">Prajitura cu visine</label>
+                <input type="number" name="prajitura_visine" min="0">
+                <br>
+                <label for="prajitura_capsune">Prajitura cu capsune</label>
+                <input type="number" name="prajitura_capsune" min="0">
+                <br>
+                <label for="corn_ciocolata">Corn cu ciocolata</label>
+                <input type="number" name="corn_ciocolata" min="0">
+                <br>
+                <label for="chec_visine">Chec cu visine</label>
+                <input type="number" name="chec_visine" min="0">
+                <br>
+                <label for="ecler_ciocolata">Ecler cu ciocolata</label>
+                <input type="number" name="ecler_ciocolata" min="0">
+                <br>
+                <label for="rulou_ciocolata">Rulou cu ciocolata</label>
+                <input type="number" name="rulou_ciocolata" min="0">
+                <br>
+                <label for="culoare">Alege culoarea pachetului:</label>
+                <input type="color" name="culoare">
+                <br>
+                <label for="comentarii">Alte specificatii:</label>
+                <br>
+                <textarea cols="30" rows="8"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="reset">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="submit">
+            </div>
+
+        </form>
+    </body>
+</html>

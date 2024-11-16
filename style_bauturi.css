@@ -1,0 +1,204 @@
+/*fonturi*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&family=Noto+Serif&display=swap');
+/*body*/
+body
+{
+    background-color:white;
+    font-family: 'Fira Sans', sans-serif;
+}
+/*header*/
+header
+{
+    position:sticky;
+    top:0;
+    background-color:white;
+    margin-left:0em;
+    margin-right:0em;
+}
+#Titlu_pagina
+{
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 5vw;
+}
+.meniu
+{
+    font-family: 'Fira Sans', sans-serif;
+    background-color:white;
+    border-bottom: 0.1em solid black;
+    color:black;
+    font-size:2vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:5em;
+}
+.meniu a
+{
+    color:rgb(106, 58, 106);
+    text-decoration:none;
+}
+.meniu a.pagina_curenta
+{
+    background-color:rgb(106, 58, 106);
+    color:white;
+    padding-left:1em;
+    padding-right:1em;
+}
+.meniu a:hover
+{
+    background-color:rgb(106, 58, 106);
+    color:white;
+}
+.dropdown-menu
+{
+    position:relative;
+    display:inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: rgb(147, 104, 137);
+    padding-left:1em;
+    padding-right:1em;
+    z-index: 1;
+    text-align:center;
+}
+
+.dropdown-content a:hover 
+{
+  background-color:rgb(106, 58, 106);
+  color:white;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-menu:hover .dropdown-content 
+  {
+    display: block;
+  }
+
+  .dropdown-menu:hover .dropdown 
+  {
+    background-color: white;
+    color:black;
+  }
+
+/*main*/
+.bauturi
+{
+    background-color:rgb(147, 104, 137);
+    border-style:solid;
+    border-radius:2em;
+    padding-left:2em;
+    padding-bottom:2em;
+    font-family: 'Fira Sans', sans-serif;
+    display:grid;
+    grid-template-rows:repeat(7,row[auto]);
+    column-gap:1em;
+    margin-top:3em;
+    margin-right:5em;
+    margin-left:5em;
+
+}
+
+.produs
+{
+    display:grid;
+    grid-template-columns:50%,50%;
+    grid-template-rows:80% 10% 10%;
+}
+
+#poza1
+{
+    grid-row:1/2;
+    margin:1em;
+    height:30vw;
+}
+#poza2
+{
+    grid-row:2/3;
+    margin:1em;
+    height:30vw;
+}
+#poza3
+{
+    grid-row:3/4;
+    margin:1em;
+    height:30vw;
+}
+#poza4
+{
+    grid-row:4/5;
+    margin:1em;
+    height:30vw;
+}
+#poza5
+{
+    grid-row:5/6;
+    margin:1em;
+    height:30vw;
+}
+#poza6
+{
+    grid-row:6/7;
+    margin:1em;
+    height:30vw;
+}
+#poza7
+{
+    grid-row:7/8;
+    margin:1em;
+    height:30vw;
+}
+img
+{
+    grid-column:1/2;
+    margin-top:10%;
+    margin-bottom:10%;
+    margin-left:5%;
+    height:15vw;
+    width:18vw;
+}
+
+.format
+{
+    background-color:white;
+    margin-top:1em;
+    width:90%;
+    height:90%;
+
+}
+
+button
+{
+    background-color:lavender;
+    border-radius:10%;
+    grid-row:2/3;
+    margin:1em;
+    height:2em;
+    width:5em;
+
+}
+
+p
+{
+    grid-row:3/4;
+}
+
+/*footer*/
+footer
+{
+    background-color:rgb(160, 144, 155);
+    color:black;
+    font-size:0.5vw;
+}
